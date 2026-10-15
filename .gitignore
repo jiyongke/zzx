@@ -1,0 +1,36 @@
+# ===== Java / Maven =====
+backend/target/
+*.class
+*.jar
+*.war
+*.iml
+
+# ===== Node / 前端 =====
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-error.log*
+
+# ===== IDE =====
+.idea/
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# ===== 日志 =====
+*.log
+run.err.log
+run.log
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 本地环境配置（含敏感信息，不入库）=====
+application-local.yml
+application-local.properties
+.env
