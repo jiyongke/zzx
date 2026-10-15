@@ -9,7 +9,7 @@ spring:
     # 修改为本机 MySQL 账号密码即可
     url: jdbc:mysql://localhost:3306/orange_farm?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     username: root
-    password: jyk123123
+    password: your_mysql_password
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Shanghai
